@@ -1,0 +1,32 @@
+{
+  "title": "User Game Flow",
+  "users": [
+    {
+      "username": "user_001",
+      "email": "player1@example.com",
+      "saves": [
+        {
+          "saveId": "a1b2c3d4-e5f6-7890-abcd-1234567890ef",
+          "timestamp": "2025-10-07T13:30:00Z",
+          "score": 1500,
+          "timeUsed": 300,
+          "hintsUsed": 2,
+          "strikes": 1
+        },
+        {
+          "saveId": "b2c3d4e5-f6a7-8901-bcde-2345678901fa",
+          "timestamp": "2025-10-06T17:45:00Z",
+          "score": 950,
+          "timeUsed": 300,
+          "hintsUsed": 1,
+          "strikes": 1          
+        }
+      ]
+    },
+    {
+      "username": "guestUser",
+      "email": "",
+      "saves": []
+    }
+  ]
+}
