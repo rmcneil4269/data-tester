@@ -1,0 +1,26 @@
+{
+  "title": "Room System Flow",
+  "rooms": [
+    {
+      "roomId": "room_001",
+      "isVisited": true,
+      "puzzlesSolved": [true, false, false],
+      "itemsTaken": ["key", "map"],
+      "personalTracker": 2 
+    },
+    {
+      "roomId": "room_002",
+      "isVisited": false,
+      "puzzlesSolved": [false, false],
+      "itemsTaken": [],
+      "personalTracker": 0 
+    },
+    {
+      "roomId": "room_003",
+      "isVisited": true,
+      "puzzlesSolved": [true, true],
+      "itemsTaken": ["flashlight"],
+      "personalTracker": 1
+    }
+  ]
+}
